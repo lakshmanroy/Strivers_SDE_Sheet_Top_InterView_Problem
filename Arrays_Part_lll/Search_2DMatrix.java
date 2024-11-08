@@ -1,4 +1,4 @@
-package Arrays_Part_lll;
+
 public class Search_2DMatrix {
     public static boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length;
