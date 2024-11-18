@@ -22,7 +22,6 @@ public class ReaptingAndMissing {
                 break;
             }
         }
-        
         return new int[]{duplicate, missing};
     }
 
