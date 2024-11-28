@@ -33,7 +33,7 @@ public class DeleteNode{
         head.next.next.next = new Node(9);
 
         DeleteNode list = new DeleteNode();
-        Node nodeToDelete = head.next; // Node with value 5
+        Node nodeToDelete = head.next.next; // Node with value 5
         deleteNodes(nodeToDelete);
         list.print();
     }
