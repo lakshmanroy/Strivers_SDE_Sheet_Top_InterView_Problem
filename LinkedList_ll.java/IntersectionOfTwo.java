@@ -15,7 +15,7 @@ public class IntersectionOfTwo {
             partA=(partA==null)? headB:partA.next;
             partB=(partB==null)?headA:partB.next;
          }
-         return partA;
+         return partA; 
     }
     public static void main(String[] args) {
         Node head=new Node(8);
